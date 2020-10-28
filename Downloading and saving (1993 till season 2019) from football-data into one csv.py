@@ -140,39 +140,39 @@ print("Concatenating data for Season 1993")
 Season_1993_c = pd.concat(Season_1993, axis=0, ignore_index=True)
 print("Concatenating data for Season 1993 completed successfully")
 print("Defining list of all seasons")
-Season_list = [Season_2020_c,
-               Season_2019_c,
-               Season_2018_c,
-               Season_2017_c,
-               Season_2016_c,
-               Season_2015_c,
-               Season_2014_c,
-               Season_2013_c,
-               Season_2012_c,
-               Season_2011_c,
-               Season_2010_c,
-               Season_2009_c,
-               Season_2008_c,
-               Season_2007_c,
-               Season_2006_c,
-               Season_2005_c,
-               Season_2004_c,
-               Season_2003_c,
-               Season_2002_c,
-               Season_2001_c,
-               Season_2000_c,
-               Season_1999_c,
-               Season_1998_c,
-               Season_1997_c,
-               Season_1996_c,
-               Season_1995_c,
-               Season_1994_c,
-               Season_1993_c,
-               ]
+Season_list = [
+    Season_2019_c,
+    Season_2018_c,
+    Season_2017_c,
+    Season_2016_c,
+    Season_2015_c,
+    Season_2014_c,
+    Season_2013_c,
+    Season_2012_c,
+    Season_2011_c,
+    Season_2010_c,
+    Season_2009_c,
+    Season_2008_c,
+    Season_2007_c,
+    Season_2006_c,
+    Season_2005_c,
+    Season_2004_c,
+    Season_2003_c,
+    Season_2002_c,
+    Season_2001_c,
+    Season_2000_c,
+    Season_1999_c,
+    Season_1998_c,
+    Season_1997_c,
+    Season_1996_c,
+    Season_1995_c,
+    Season_1994_c,
+    Season_1993_c,
+]
 print("Concatenating all data into one dataframe")
 db_concat = pd.concat(Season_list)
 print("Saving csv")
-db_concat.to_csv(r"C:\Users\harsh\Documents\My Dream\Desktop\Betting\Files\dataset.csv")
+db_concat.to_csv(r"C:\Users\harsh\Documents\My Dream\Desktop\Betting\Files\dataset(1993-2019).csv")
 print("File Saved")
 print("Success")
 end = datetime.now()
