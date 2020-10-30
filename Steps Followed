@@ -1,5 +1,6 @@
-Step 1: Run this file (Downloading and saving(1993 till season 202019) from football-data into one csv.py)to 
+Step 1: Run this file (Downloading and saving(1993 till season 2019) from football-data into one csv.py)to 
         Download all matches available till last season in one csv and save it to your local drive. 
         It improves process perormance as the biggest part is already on your hdd
 Step 2: Run this file (Downloading updated data and using historical data.py) to update all 
         the matches till the latest and prep dataset for machine learning exercises
+Step 3: Run this file (SKLearn model to predict scores.py) to get predictions of all listed in test csv
