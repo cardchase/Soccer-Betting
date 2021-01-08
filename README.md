@@ -1,10 +1,14 @@
 # Soccer-Betting
+
 Beta* 
+
 A project to pit predictions to reality using machine learning; 
 
 A repo to predict soccer scores from Historical train data and timetable &/test data. 
+
 We use Scikit-Learn's RandomrestRegressor to predict soccer scores purely based on historical data and betting odds.
 https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html
+
 By data enthusiasts for betting enthusiasts.
 
 Steps to follow:
