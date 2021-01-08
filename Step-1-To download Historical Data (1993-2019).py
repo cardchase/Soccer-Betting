@@ -172,7 +172,7 @@ Season_list = [Season_2020_c,
 print("Concatenating all data into one dataframe")
 db_concat = pd.concat(Season_list)
 print("Saving csv")
-db_concat.to_csv(r"C:\Users\harsh\Documents\My Dream\Desktop\Betting\Files\dataset.csv")
+db_concat.to_csv(r'path')
 print("File Saved")
 print("Success")
 end = datetime.now()
